@@ -1,0 +1,69 @@
+---
+# ------------   Global Configuration   ------------
+arch: Fruits360   # Mandatory: use the name of the model as in training
+dataset: fruits360  # Mandatory: use the name of the dataset as in training
+
+# ------------   Layers   ------------
+layers:
+  - pad: 1
+    activate: ReLU
+    out_offset: 0x0000
+    processors: 0x0000000100010001  # input channels: 3, assign each to a separate processor
+    data_format: CHW
+    operation: Conv2d
+    kernel_size: 3x3
+    streaming: true
+
+  - max_pool: 2
+    pool_stride: 2
+    pad: 1
+    activate: ReLU
+    out_offset: 0x2000
+    processors: 0xFFFF000000000000
+    operation: Conv2d
+    kernel_size: 3x3
+    streaming: true
+
+  - pad: 1
+    activate: ReLU
+    out_offset: 0x0000
+    processors: 0xFFFF000000000000  # input channels: 16
+    operation: Conv2d
+    kernel_size: 3x3
+
+  - max_pool: 2
+    pool_stride: 2
+    pad: 1
+    activate: ReLU
+    out_offset: 0x2000
+    processors: 0x00000000FFFFFFFF
+    operation: Conv2d
+    kernel_size: 3x3
+
+  - pad: 1
+    activate: ReLU
+    out_offset: 0x0000
+    processors: 0xFFFFFFFF00000000  # input channels: 32
+    operation: Conv2d
+    kernel_size: 3x3
+
+  - max_pool: 2
+    pool_stride: 2
+    pad: 1
+    activate: ReLU
+    out_offset: 0x2000
+    processors: 0xFFFFFFFFFFFFFFFF
+    operation: Conv2d
+    kernel_size: 3x3
+
+  - avg_pool: [12, 12]
+    pool_stride: [12, 12]
+    operation: None
+    out_offset: 0x0000
+    processors: 0xFFFFFFFFFFFFFFFF
+
+  - flatten: false
+    out_offset: 0x1000
+    processors: 0xFFFFFFFFFFFFFFFF  # input channels before flattening: 64
+    operation: MLP
+    output_width: 8

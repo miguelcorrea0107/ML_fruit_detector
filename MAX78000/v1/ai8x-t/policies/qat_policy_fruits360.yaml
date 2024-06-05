@@ -1,0 +1,7 @@
+---
+# Quantization-Aware Training (QAT) Policy
+start_epoch: 1  # Start applying QAT from the first epoch
+weight_bits: 8  # Use 8 bits for weights
+activation_bits: 8  # Use 8 bits for activations
+shift_quantile: 0.995  # Use the 99.5% quantile for determining shift operations
+lr_reduction_epoch: 20
