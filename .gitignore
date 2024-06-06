@@ -1,0 +1,8 @@
+# ignore
+/__pycache__/
+
+# ignore pdfs
+*.pdf
+
+# ignore dataset
+/ML_Model/fruits/
