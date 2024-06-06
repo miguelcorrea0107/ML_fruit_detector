@@ -5,4 +5,4 @@
 *.pdf
 
 # ignore dataset
-/ML_Model/fruits/
+/STM32/ML_Model/fruits
