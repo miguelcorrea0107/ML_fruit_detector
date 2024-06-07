@@ -6,3 +6,5 @@
 
 # ignore dataset
 /STM32/ML_Model/fruits
+
+**/.DS_Store
