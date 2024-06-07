@@ -1,0 +1,30 @@
+/Users/miguelcorrea/Desktop/ML_project/ML_Maxim/ai8x-synthesis/synthed_net/fruits360/build/max9867.o: \
+ /Users/miguelcorrea/Desktop/MaximSDK/MaximSDK/Libraries/MiscDrivers/CODEC/max9867.c \
+ /opt/ST/STM32CubeCLT/GNU-tools-for-STM32/lib/gcc/arm-none-eabi/11.3.1/include/stdint.h \
+ /opt/ST/STM32CubeCLT/GNU-tools-for-STM32/arm-none-eabi/include/stdint.h \
+ /opt/ST/STM32CubeCLT/GNU-tools-for-STM32/arm-none-eabi/include/machine/_default_types.h \
+ /opt/ST/STM32CubeCLT/GNU-tools-for-STM32/arm-none-eabi/include/sys/features.h \
+ /opt/ST/STM32CubeCLT/GNU-tools-for-STM32/arm-none-eabi/include/_newlib_version.h \
+ /opt/ST/STM32CubeCLT/GNU-tools-for-STM32/arm-none-eabi/include/sys/_intsup.h \
+ /opt/ST/STM32CubeCLT/GNU-tools-for-STM32/arm-none-eabi/include/sys/_stdint.h \
+ /Users/miguelcorrea/Desktop/MaximSDK/MaximSDK/Libraries/PeriphDrivers/Include/MAX78000/i2c.h \
+ /opt/ST/STM32CubeCLT/GNU-tools-for-STM32/lib/gcc/arm-none-eabi/11.3.1/include/stdbool.h \
+ /Users/miguelcorrea/Desktop/MaximSDK/MaximSDK/Libraries/PeriphDrivers/Include/MAX78000/mxc_sys.h \
+ /Users/miguelcorrea/Desktop/MaximSDK/MaximSDK/Libraries/PeriphDrivers/Include/MAX78000/mxc_device.h \
+ /Users/miguelcorrea/Desktop/MaximSDK/MaximSDK/Libraries/CMSIS/Device/Maxim/MAX78000/Include/max78000.h \
+ /Users/miguelcorrea/Desktop/MaximSDK/MaximSDK/Libraries/CMSIS/5.9.0/Core/Include/core_cm4.h \
+ /Users/miguelcorrea/Desktop/MaximSDK/MaximSDK/Libraries/CMSIS/5.9.0/Core/Include/cmsis_version.h \
+ /Users/miguelcorrea/Desktop/MaximSDK/MaximSDK/Libraries/CMSIS/5.9.0/Core/Include/cmsis_compiler.h \
+ /Users/miguelcorrea/Desktop/MaximSDK/MaximSDK/Libraries/CMSIS/5.9.0/Core/Include/cmsis_gcc.h \
+ /Users/miguelcorrea/Desktop/MaximSDK/MaximSDK/Libraries/CMSIS/5.9.0/Core/Include/mpu_armv7.h \
+ /Users/miguelcorrea/Desktop/MaximSDK/MaximSDK/Libraries/CMSIS/Device/Maxim/MAX78000/Include/system_max78000.h \
+ /Users/miguelcorrea/Desktop/MaximSDK/MaximSDK/Libraries/CMSIS/Device/Maxim/MAX78000/Include/gcr_regs.h \
+ /Users/miguelcorrea/Desktop/MaximSDK/MaximSDK/Libraries/PeriphDrivers/Include/MAX78000/mxc_errors.h \
+ /Users/miguelcorrea/Desktop/MaximSDK/MaximSDK/Libraries/PeriphDrivers/Include/MAX78000/mxc_pins.h \
+ /Users/miguelcorrea/Desktop/MaximSDK/MaximSDK/Libraries/PeriphDrivers/Include/MAX78000/gpio.h \
+ /Users/miguelcorrea/Desktop/MaximSDK/MaximSDK/Libraries/CMSIS/Device/Maxim/MAX78000/Include/gpio_regs.h \
+ /Users/miguelcorrea/Desktop/MaximSDK/MaximSDK/Libraries/CMSIS/Device/Maxim/MAX78000/Include/lpgcr_regs.h \
+ /Users/miguelcorrea/Desktop/MaximSDK/MaximSDK/Libraries/CMSIS/Device/Maxim/MAX78000/Include/gcr_regs.h \
+ /Users/miguelcorrea/Desktop/MaximSDK/MaximSDK/Libraries/CMSIS/Device/Maxim/MAX78000/Include/i2c_regs.h \
+ /Users/miguelcorrea/Desktop/MaximSDK/MaximSDK/Libraries/CMSIS/Device/Maxim/MAX78000/Include/dma_regs.h \
+ /Users/miguelcorrea/Desktop/MaximSDK/MaximSDK/Libraries/MiscDrivers/CODEC/max9867.h
